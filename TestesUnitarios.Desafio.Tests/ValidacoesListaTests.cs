@@ -37,6 +37,7 @@ public class ValidacoesListaTests
     [Fact]
     public void NaoDeveConterONumero10NaLista()
     {
+        //TODO: Implementar método de teste
         // IMPLEMENTADO |||
 
         // Arrange
@@ -49,11 +50,12 @@ public class ValidacoesListaTests
         // Assert
         Assert.False(resultado);
     }
-
+     //TODO: Corrigir a anotação [Fact]
     // IMPLEMENTADO |||
     [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
+        //TODO: Implementar método de teste
         // IMPLEMENTADO |||
 
         // Arrange
@@ -70,6 +72,7 @@ public class ValidacoesListaTests
     [Fact]
     public void DeveRetornar9ComoMaiorNumeroDaLista()
     {
+        //TODO: Implementar método de teste
         // IMPLEMENTADO |||
 
         // Arrange
@@ -79,6 +82,7 @@ public class ValidacoesListaTests
         var resultado = _validacoes.RetornarMaiorNumeroLista(lista);
 
         // Assert
+         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
         // IMPLEMENTADO |||
         Assert.Equal(9, resultado);
     }
@@ -86,6 +90,7 @@ public class ValidacoesListaTests
     [Fact]
     public void DeveRetornarOitoNegativoComoMenorNumeroDaLista()
     {
+         //TODO: Implementar método de teste
         // IMPLEMENTADO |||
 
         // Arrange
@@ -95,7 +100,8 @@ public class ValidacoesListaTests
         var resultado = _validacoes.RetornarMenorNumeroLista(lista);
 
         // Assert
+        //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
         // IMPLEMENTADO |||
-        Assert.Equal(resultado, -8);
+        Assert.Equal(resultado, -8); 
     }
 }
